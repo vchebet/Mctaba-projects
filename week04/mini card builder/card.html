@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Profile Card Builder</title>
+</head>
+<body>
+  <h1 id="header">Mini Profile Card Builder</h1>
+
+  <div id="formArea">
+    <p>
+      <label>Name: </label>
+      <input id="nameInput" type="text" placeholder="e.g. Aisha" />
+    </p>
+
+    <p>
+      <label>Favorite Tech: </label>
+      <input id="techInput" type="text" placeholder="e.g. JavaScript" />
+    </p>
+
+    <p>
+      <label>Goal This Month: </label>
+      <input id="goalInput" type="text" placeholder="e.g. Build a portfolio site" />
+    </p>
+
+    <button id="updateBtn">Update Card</button>
+    <button id="themeBtn">Toggle Theme</button>
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <hr />
+
+  <div id="card">
+    <h2 id="cardName">Your Name</h2>
+    <p id="cardTech">Favorite Tech: -</p>
+    <p id="cardGoal">Goal: -</p>
+  </div>
+  <script src="profile.js" defer></script>
+</body>
+</html>
