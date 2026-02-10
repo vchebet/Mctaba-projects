@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Expense Tracker Lite</title>
+</head>
+<style>  
+  body{
+    background-color: rgb(60, 60, 100);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+</style>
+<body>
+
+  <h1>Expense Tracker Lite</h1>
+
+  <div>
+    <input type="text" id="nameInput" placeholder="Expense name"><br>
+    <input type="number" id="amountInput" placeholder="Amount"><br>
+
+    <select id="categoryInput">
+      <option value="Food">Food</option>
+      <option value="Transport">Transport</option>
+      <option value="Bills">Bills</option>
+      <option value="Shopping">Shopping</option>
+      <option value="Other">Other</option>
+    </select><br>
+
+    <button id="addBtn">Add Expense</button>
+    <button id="clearBtn">Clear All</button>
+
+    <p id="errorMessage"></p>
+  </div>
+
+  
+
+  <ul id="expenseList"></ul>
+
+  <h3>Summary</h3>
+  <p>Total: KES <span id="totalAmount">0</span></p>
+  <p>Items: <span id="itemCount">0</span></p>
+  <p>Highest: <span id="highestExpense">-</span></p>
+
+  <script src="expense.js" defer></script>
+
+</body>
+</html>
