@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple JavaScript web app that allows the user to enter numbers and keeps a running total. The program continues to add numbers until the largest prime number under 1000 is entered, at which point it stops and displays the final sum.
+This is a simple JavaScript web app that allows the user to enter numbers and keeps a running total. The program continues to add numbers until the **largest prime number under 1000** is entered, at which point it stops and displays the final sum.
 
 The app demonstrates basic **JavaScript**, **DOM manipulation**, and **event handling**.
 
