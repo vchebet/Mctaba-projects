@@ -4,7 +4,7 @@ function createBankAccount(initialBalance = 0) {
 
   return {
     deposit(amount) {
-      if (amount <= 0) return "Invalid amount";
+      if (amount <= 0) return "Invalid amount"
 
       balance += amount;
       history.push(`Deposited ${amount}`);
