@@ -56,7 +56,7 @@ function updateHistory() {
   });
 }
 
-// Deposit event
+// Deposit action
 depositBtn.addEventListener("click", () => {
   const amount = Number(amountInput.value);
   account.deposit(amount);
@@ -67,7 +67,7 @@ depositBtn.addEventListener("click", () => {
   amountInput.value = "";
 });
 
-// Withdraw event
+// Withdraw action
 withdrawBtn.addEventListener("click", () => {
   const amount = Number(amountInput.value);
   account.withdraw(amount);
