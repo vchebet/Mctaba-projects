@@ -56,7 +56,7 @@ function updateHistory() {
   });
 }
 
-// Deposit action
+
 depositBtn.addEventListener("click", () => {
   const amount = Number(amountInput.value);
   account.deposit(amount);
